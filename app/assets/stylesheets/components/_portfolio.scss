@@ -1,13 +1,26 @@
-// .portfolio .campcanary {
-//   background-size: cover;
-//   background-position: center;
-//   padding: 150px 0;
-//   background-image: url("Shape1.jpg");
-// }
+.img-container {
+  position: relative;
+  display: inline-block;
+}
 
-// .portfolio .learnbetter {
-//   background-size: cover;
-//   background-position: center;
-//   padding: 150px 0;
-//   background-image: url("Shape2.jpg");
-// }
+.img-container .overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgb(0,170,170);
+  opacity:0;
+  transition:opacity 500ms ease-in-out;
+}
+.img-container:hover .overlay{
+  opacity:1;
+}
+
+.overlay h2{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:#fff;
+}

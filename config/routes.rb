@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get "portfolio", to: "pages#portfolio"
   get "about", to: "pages#about"
   get "contact", to: "pages#contact"
+  get "campcanary", to: "pages#campcanary"
   # Defines the root path route ("/")
   # root "articles#index"
 end

@@ -2,18 +2,31 @@
   <p class="heading">— Andrew is a Product Manager and Digital Learning Expert in London</p>
 </div>
 
+<div class="container">
+  <div class="grid-row">
+    <div class="image-spacer">
+      <div class="image">
+          <%= image_tag "Shape1.png", class: "image__img"%>
+        <div class="image__overlay">
+          <div class="image__title">
+            <h2><%= link_to "Camp Canary", campcanary_path %></h2>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <div class="image">
-      <%= image_tag "Shape1.png", class: "image__img"%>
-    <div class="image__overlay image__overlay--blur">
-      <div class="image__title">
-        <h2><%= link_to "Camp Canary", campcanary_path %></h2>
+    <div class="image-spacer">
+      <div class="image">
+            <%= image_tag "Shape2.png", class: "image__img"%>
+          <div class="image__overlay image__overlay--blur">
+            <div class="image__title">
+              <h2><%= link_to "Learn Better", learnbetter_path %></h2>
+            </div>
+          </div>
       </div>
     </div>
   </div>
-
-
-
+</div>
 
 
 <%# <div class="banner">

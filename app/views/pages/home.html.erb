@@ -1,26 +1,20 @@
 <div class="container">
-  <div class="row">
-    <div class = "col-12 col-lg-12">
-     <p class="heading">— Andrew is a Product Manager and Digital Learning Expert in London</p>
-    </div>
-    <div class="col-12 col-lg-6 d-flex justify-content-lg-end">
-      <div class="img-container">
-        <%= image_tag "Shape1.png"%>
-          <div class="overlay">
-            <h2><%= link_to "Camp Canary", campcanary_path, :class => "navlink" %></h2>
-          </div>
-      </div>
-    </div>
-    <div class="col-12 col-lg-6 d-flex justify-content-lg-start">
-      <div class="img-container">
-      <%= image_tag "Shape2.png"%>
-        <div class="overlay">
-          <h2>LearnBetter</h2>
-        </div>
+  <p class="heading">— Andrew is a Product Manager and Digital Learning Expert in London</p>
+</div>
+
+
+  <div class="image">
+      <%= image_tag "Shape1.png", class: "image__img"%>
+    <div class="image__overlay image__overlay--blur">
+      <div class="image__title">
+        <h2><%= link_to "Camp Canary", campcanary_path %></h2>
       </div>
     </div>
   </div>
-</div>
+
+
+
+
 
 <%# <div class="banner">
   <div class="container">

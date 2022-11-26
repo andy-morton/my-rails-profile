@@ -15,4 +15,8 @@ class PagesController < ApplicationController
   def campcanary
   end
 
+  def learnbetter
+
+  end
+
 end

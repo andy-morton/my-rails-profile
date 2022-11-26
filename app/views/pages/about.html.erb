@@ -11,10 +11,12 @@
   gtag('config', 'G-PJS128JBMT');
 </script>
 
-<h1>About</h1>
+<div class="container">
+  <h1 class="m-4 p-4">About</h1>
 
-<ol>
-  <% @hobbies.each do |hobby| %>
-    <li><%= hobby.capitalize %></li>
-  <% end %>
-</ol>
+  <ol>
+    <% @hobbies.each do |hobby| %>
+      <li><%= hobby.capitalize %></li>
+    <% end %>
+  </ol>
+</div>

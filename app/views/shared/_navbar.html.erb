@@ -1,4 +1,6 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon fixed-top"
+     data-controller="navbar"
+     data-action="scroll@window->navbar#updateNavbar">
   <div class="container-fluid">
     <%# <a class="navbar-brand"> %>
       <%= link_to( image_tag("profile_photo.jpeg", alt: "My Face"), root_path, :class => "navbar-brand") %>

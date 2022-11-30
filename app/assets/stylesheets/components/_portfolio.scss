@@ -47,6 +47,28 @@
   font-size: 2em;
   font-weight: bold;
 }
+
+.portfolio-link:link {
+  color: white;
+}
+.portfolio-link:visited{
+  color:white;
+  text-decoration: none;
+}
+
+.portfolio-link:hover {
+  color: #CCCCCC;
+}
+
+.portfolio-link:active {
+  color: #333333;
+}
+
+.portfolio-descriptions {
+  margin: 2rem;
+  font-size: 2vw;
+  font-weight: 50;
+}
 // .img-container {
 //   position: relative;
 //   display: inline-block;
